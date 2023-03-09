@@ -2,7 +2,7 @@
 
 A very simple light weight react-component that animates your number updates.
 
-![Scrolling Number](https://media.giphy.com/media/XZ02rGDvGc8bk9x8rq/giphy.gif)
+![Scrolling Numbers](https://www.webfunny.cn/resource/scroll.gif)
 
 ## Installation
 
