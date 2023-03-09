@@ -1,5 +1,5 @@
 <p align=center>
-    <img width=400 src="https://www.webfunny.cn/resource/tuiguang.png"/>
+    <img width=680 src="https://www.webfunny.cn/resource/tuiguang.png"/>
 </p>
 
 # numbers-scroll
