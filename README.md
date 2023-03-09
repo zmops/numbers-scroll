@@ -1,6 +1,7 @@
 # numbers-scroll
 
 A very simple light weight react-component that animates your number updates.
+
 一个非常轻量的，react数字滚动组件。
 
 ![Scrolling Numbers](https://www.webfunny.cn/resource/scroll.gif)
@@ -72,6 +73,9 @@ class MyNumberScroll extends Component {
 ## Parameter Description（参数说明）
 
 split：separator（分隔符）
+
 value：number（数字）
+
 numberStyle：number style（数字的样式）
+
 containerStyle：container style（容器的样式）
