@@ -36,17 +36,17 @@ export default class NumbersCount extends Component {
           return <div className="numbers-box" key={index} style={numberStyleObj}>
             { value > 0 ?
               <span className={scrollClass}>
-                <label style={this.props.numberStyle}>0</label>
-                <label style={this.props.numberStyle}>1</label>
-                <label style={this.props.numberStyle}>2</label>
-                <label style={this.props.numberStyle}>3</label>
-                <label style={this.props.numberStyle}>4</label>
-                <label style={this.props.numberStyle}>5</label>
-                <label style={this.props.numberStyle}>6</label>
-                <label style={this.props.numberStyle}>7</label>
-                <label style={this.props.numberStyle}>8</label>
-                <label style={this.props.numberStyle}>9</label>
-                <label style={this.props.numberStyle}>0</label>
+                <label style={numberStyle}>0</label>
+                <label style={numberStyle}>1</label>
+                <label style={numberStyle}>2</label>
+                <label style={numberStyle}>3</label>
+                <label style={numberStyle}>4</label>
+                <label style={numberStyle}>5</label>
+                <label style={numberStyle}>6</label>
+                <label style={numberStyle}>7</label>
+                <label style={numberStyle}>8</label>
+                <label style={numberStyle}>9</label>
+                <label style={numberStyle}>0</label>
               </span>
               :
               <span>

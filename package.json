@@ -1,6 +1,6 @@
 {
   "name": "numbers-scroll",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.dev.js --openPage 'example.html'",
@@ -8,7 +8,12 @@
     "fix": "eslint src/ --fix"
   },
   "main": "dist/main.min.js",
-  "author": "",
+  "author": "一步一个脚印一个坑",
+  "keywords": [
+    "react number scroll",
+    "animation",
+    "number-animator"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.14.3",

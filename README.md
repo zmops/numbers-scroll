@@ -1,3 +1,7 @@
+<p align=center>
+    <img width=400 src="https://www.webfunny.cn/resource/tuiguang.png"/>
+</p>
+
 # numbers-scroll
 
 A very simple light weight react-component that animates your number updates.
