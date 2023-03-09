@@ -1,0 +1,22 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: #eaeaea;
+    text-align: center;
+    padding-top: 10px;
+    img {
+        width: 960px;
+        cursor: pointer;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .des {
+        font-size: 14px;
+        color: #999;
+    }
+}

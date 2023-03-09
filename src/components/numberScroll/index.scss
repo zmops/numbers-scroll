@@ -1,0 +1,376 @@
+.numbers-container {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  $marginTop: 50px;
+  @keyframes scrollNumber0
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1100;}
+  }
+
+  @-moz-keyframes scrollNumber0 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1100;}
+  }
+
+  @-webkit-keyframes scrollNumber0 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1100;}
+  }
+
+  @-o-keyframes scrollNumber0 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1100;}
+  }
+  //////////////////////////////
+  @keyframes scrollNumber1
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber1 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber1 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -1 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber1 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -2 * $marginTop;}
+  }
+  //////////////////////////////
+  @keyframes scrollNumber2
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -2 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber2 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -2 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber2 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -2 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber2 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -2 * $marginTop;}
+  }
+  ////////////////////////////
+  @keyframes scrollNumber3
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -3 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber3 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -3 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber3 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -3 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber3 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -3 * $marginTop;}
+  }
+  ////////////////////////////
+  @keyframes scrollNumber4
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -4 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber4 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -4 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber4 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -4 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber4 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -4 * $marginTop;}
+  }
+  /////////////////////////////
+  @keyframes scrollNumber5
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -5 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber5 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -5 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber5 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -5 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber5 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -5 * $marginTop;}
+  }
+  /////////////////////////////
+  @keyframes scrollNumber6
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -6 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber6 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -6 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber6 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -6 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber6 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -6 * $marginTop;}
+  }
+  /////////////////////////////
+  @keyframes scrollNumber7
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -7 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber7 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -7 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber7 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -7 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber7 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -7 * $marginTop;}
+  }
+  /////////////////////////////
+  @keyframes scrollNumber8
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -8 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber8 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -8 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber8 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -8 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber8 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -8 * $marginTop;}
+  }
+  /////////////////////////////
+  @keyframes scrollNumber9
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -9 * $marginTop;}
+  }
+
+  @-moz-keyframes scrollNumber9 /* Firefox */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -9 * $marginTop;}
+  }
+
+  @-webkit-keyframes scrollNumber9 /* Safari 和 Chrome */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -9 * $marginTop;}
+  }
+
+  @-o-keyframes scrollNumber9 /* Opera */
+  {
+    0% { margin-top: 0px; }
+    100% { margin-top: -9 * $marginTop;}
+  }
+
+  .numbers-box {
+    width: 57px;
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    float: left;
+    span {
+      color: #666;
+      width: 100%;
+      height: 550px;
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      label {
+        width: 100%;
+        float: left;
+      }
+      label:nth-child(1), label:nth-child(2), label:nth-child(3), label:nth-child(4), label:nth-child(5), label:nth-child(6), label:nth-child(7), label:nth-child(8), label:nth-child(9), label:nth-child(10) {
+        padding-top: 0rem;
+      }
+    }
+    .numbers-scroll00 {
+      margin-top: -10 * $marginTop;
+      animation: scrollNumber0 1s linear 1 normal;
+      -moz-animation: scrollNumber0 1s linear 1 normal;
+      -webkit-animation: scrollNumber0 1s linear 1 normal;
+      -o-animation: scrollNumber0 1s linear 1 normal;
+    }
+    .numbers-scroll01 {
+      margin-top: -10 * $marginTop;
+      animation: scrollNumber0 0.9s linear 1 normal;
+      -moz-animation: scrollNumber0 0.9s linear 1 normal;
+      -webkit-animation: scrollNumber0 0.9s linear 1 normal;
+      -o-animation: scrollNumber0 0.9s linear 1 normal;
+    }
+    .numbers-scroll02 {
+      margin-top: -10 * $marginTop;
+      animation: scrollNumber0 1.4s linear 1 normal;
+      -moz-animation: scrollNumber0 1.4s linear 1 normal;
+      -webkit-animation: scrollNumber0 1.4s linear 1 normal;
+      -o-animation: scrollNumber0 1.4s linear 1 normal;
+    }
+    .numbers-scroll03 {
+      margin-top: -10 * $marginTop;
+      animation: scrollNumber0 1.2s linear 1 normal;
+      -moz-animation: scrollNumber0 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber0 1.2s linear 1 normal;
+      -o-animation: scrollNumber0 1.2s linear 1 normal;
+    }
+    .numbers-scroll04 {
+      margin-top: -10 * $marginTop;
+      animation: scrollNumber0 1.8s linear 1 normal;
+      -moz-animation: scrollNumber0 1.8s linear 1 normal;
+      -webkit-animation: scrollNumber0 1.8s linear 1 normal;
+      -o-animation: scrollNumber0 1.8s linear 1 normal;
+    }
+    .numbers-scroll05 {
+      margin-top: -10 * $marginTop;
+      animation: scrollNumber0 1.6s linear 1 normal;
+      -moz-animation: scrollNumber0 1.6s linear 1 normal;
+      -webkit-animation: scrollNumber0 1.6s linear 1 normal;
+      -o-animation: scrollNumber0 1.6s linear 1 normal;
+    }
+    .numbers-scroll1 {
+      margin-top: -$marginTop;
+      animation: scrollNumber1 1.2s linear 1 normal;
+      -moz-animation: scrollNumber1 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber1 1.2s linear 1 normal;
+      -o-animation: scrollNumber1 1.2s linear 1 normal;
+    }
+    .numbers-scroll2 {
+      margin-top: -2 * $marginTop;
+      animation: scrollNumber2 1.2s linear 1 normal;
+      -moz-animation: scrollNumber2 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber2 1.2s linear 1 normal;
+      -o-animation: scrollNumber2 1.2s linear 1 normal;
+    }
+    .numbers-scroll3 {
+      margin-top: -3 * $marginTop;
+      animation: scrollNumber3 1.2s linear 1 normal;
+      -moz-animation: scrollNumber3 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber3 1.2s linear 1 normal;
+      -o-animation: scrollNumber3 1.2s linear 1 normal;
+    }
+    .numbers-scroll4 {
+      margin-top: -4 * $marginTop;
+      animation: scrollNumber4 1.2s linear 1 normal;
+      -moz-animation: scrollNumber4 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber4 1.2s linear 1 normal;
+      -o-animation: scrollNumber4 1.2s linear 1 normal;
+    }
+    .numbers-scroll5 {
+      margin-top: -5 * $marginTop;
+      animation: scrollNumber5 1.2s linear 1 normal;
+      -moz-animation: scrollNumber5 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber5 1.2s linear 1 normal;
+      -o-animation: scrollNumber5 1.2s linear 1 normal;
+    }
+    .numbers-scroll6 {
+      margin-top: -6 * $marginTop;
+      animation: scrollNumber6 1.2s linear 1 normal;
+      -moz-animation: scrollNumber6 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber6 1.2s linear 1 normal;
+      -o-animation: scrollNumber6 1.2s linear 1 normal;
+    }
+    .numbers-scroll7 {
+      margin-top: -7 * $marginTop;
+      animation: scrollNumber7 1.2s linear 1 normal;
+      -moz-animation: scrollNumber7 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber7 1.2s linear 1 normal;
+      -o-animation: scrollNumber7 1.2s linear 1 normal;
+    }
+    .numbers-scroll8 {
+      margin-top: -8 * $marginTop;
+      animation: scrollNumber8 1.2s linear 1 normal;
+      -moz-animation: scrollNumber8 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber8 1.2s linear 1 normal;
+      -o-animation: scrollNumber8 1.2s linear 1 normal;
+    }
+    .numbers-scroll9 {
+      margin-top: -9 * $marginTop;
+      animation: scrollNumber9 1.2s linear 1 normal;
+      -moz-animation: scrollNumber9 1.2s linear 1 normal;
+      -webkit-animation: scrollNumber9 1.2s linear 1 normal;
+      -o-animation: scrollNumber9 1.2s linear 1 normal;
+    }
+  }
+}
