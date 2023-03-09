@@ -8,7 +8,7 @@ export default class NumbersCount extends Component {
     }
   }
   render() {
-    const { split = false, value, numberStyle, numberContainerStyle } = this.props
+    const { split = false, value, numberStyle, containerStyle } = this.props
     const { fontSize } = numberStyle
     const numberStyleObj = {}
     if (fontSize) numberStyleObj.width = fontSize * 0.7 / 100 + "rem"
@@ -21,7 +21,7 @@ export default class NumbersCount extends Component {
         numberList.push(",")
       }
     })
-    return <div className="numbers-container" style={numberContainerStyle}>
+    return <div className="numbers-container" style={containerStyle}>
       {
         numberList.map((number, index) => {
           let scrollClass = ""
