@@ -6,13 +6,23 @@ A very simple light weight react-component that animates your number updates.
 
 ![Scrolling Numbers](https://www.webfunny.cn/resource/scroll.gif)
 
+## Run Demo (运行Demo)
+
+step1: git clone https://github.com/zmops/numbers-scroll.git
+
+step2: npm install
+
+step3: npm run dev
+
+step4: http://localhost:9100/example.html
+
+
 ## Installation
 
 `npm install numbers-scroll --save`
 
 
 ## Examples 1
-
 
 ```javascript
 import React, { useState } from 'react'
