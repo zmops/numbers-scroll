@@ -1,12 +1,12 @@
+# numbers-scroll
+
+A very simple light weight react-component that animates your number updates. You can customize the style to adapt to a variety of scenes.
+
+一个非常轻量的，react数字滚动组件，可以自定义样式，适应于多种场景。
+
 <p align=center>
     <img width=680 src="https://www.webfunny.cn/resource/tuiguang.png"/>
 </p>
-
-# numbers-scroll
-
-A very simple light weight react-component that animates your number updates.
-
-一个非常轻量的，react数字滚动组件。
 
 ![Scrolling Numbers](https://www.webfunny.cn/resource/scroll.gif)
 
