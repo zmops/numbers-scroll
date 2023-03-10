@@ -8,6 +8,10 @@ A very simple light weight react-component that animates your number updates. Yo
     <img width=680 src="https://www.webfunny.cn/resource/tuiguang.png"/>
 </p>
 
+---
+
+## Scrolling effect
+
 ![Scrolling Numbers](https://www.webfunny.cn/resource/scroll.gif)
 
 ## Run Demo (运行Demo)
